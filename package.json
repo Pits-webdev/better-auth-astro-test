@@ -10,8 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.10",
     "@astrojs/check": "^0.9.4",
+    "astro": "^4.16.10",
+    "better-auth": "0.7.6-beta.2",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.1",
+    "pg": "^8.13.1",
     "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.28.0",
+    "tsx": "^4.19.2"
   }
 }
